@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #a7a9be;
+    height: 100%;
+}
+
+
+#container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    color: #0f0e17;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#containerTablero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+#tablero{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.casilla{
+    border: 2px solid #0f0e17;
+    min-width: 60px;
+    min-height: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
