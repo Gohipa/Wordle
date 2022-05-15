@@ -25,10 +25,10 @@ body {
 
 #containerTablero{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    overflow: hidden;
+    /* justify-content: center; */
+   /*  align-items: center; */
+    /* flex-grow: 1; */
+    /* overflow: hidden; */
 }
 
 #tablero{
@@ -46,4 +46,46 @@ body {
     font-size: 2rem;
     font-weight: bold;
     border-radius: 5px;
+    color: #0f0e17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+#teclado{
+    height: 200px;
+}
+
+.filaT{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 8px;
+    /* touch-action: manipulation; */
+}
+
+.filaT button{
+    font-family: inherit;
+    font-weight: bold;
+    border: 0;
+    padding: 17px;
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+    background-color: #72757e;
+    flex-grow: 1;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+#containerIntentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#intentos{
+    height: 130px;
 }
